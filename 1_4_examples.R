@@ -158,7 +158,7 @@ plot_ly(mtcars, x = ~factor(am), y = ~mpg) %>% add_trace(type = "violin")
 
 # 3d chart
 
-plot_ly(mpg, x = ~cty, y = ~hwy, z = ~cyl) %>% add_markers(color = ~cyl)
+plot_ly(mtcars, x = ~mpg, y = ~disp, z = ~cyl) %>% add_markers(color = ~cyl)
 
 
 
